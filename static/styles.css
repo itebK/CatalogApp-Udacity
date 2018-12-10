@@ -1,0 +1,93 @@
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header {
+	text-align: center;
+	background-color: #28a745;
+	padding: 15px;
+}
+
+nav {
+	float: left;
+	max-width: 250px;
+	margin: 0;
+	padding: 1em;
+	
+}
+
+article {
+	padding-left: 209px;
+    padding-top: 20px;
+    min-height: 428px;
+    padding-right: 40px;
+}
+
+html, body {
+	    position: absolute;
+		left: 0%;
+		right: 0%;
+		border-radius: 0px;
+		font-family: 'Arial';
+		font-size: 15px;
+		height: 99%;
+}
+
+footer {
+	background-color: #28a745;
+    padding-top: 5px;
+    text-align: right;
+    bottom: 0;
+    position: fixed;
+	padding-bottom: 1%;
+	padding-right: 2%;
+    width: 100%;
+}
+
+.flash {
+	text-align: center;
+	color: red;
+}
+
+.inline {
+	padding-top: 20px;
+	padding-right: 15px;
+	display: inline;
+}
+
+.item {
+	text-align: center;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.description {
+	max-width: 80%;
+	text-align-last: auto;
+	padding-left: 10%;
+}
+
+.login {
+	float: right;
+}
+
+.loginpage {
+	text-align: center;
+	min-height: 550px;
+}
+
+.maxheight {
+	max-height: 600px;
+}
+
+.minheight {
+	min-height: 428px;
+}
