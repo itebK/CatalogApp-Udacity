@@ -19,7 +19,7 @@ CLIENT_ID = json.loads(
     open('client_secrets.json', 'r').read())['web']['client_id']
 APPLICATION_NAME = "Catalog Application"
 
-engine = create_engine('sqlite:///catalogs.db',
+engine = create_engine('postgresql://itebk:Khayati1@localhost/catalogdb',
                        connect_args={'check_same_thread': False})
 Base.metadata.bind = engine
 
@@ -348,7 +348,7 @@ def disconnect():
         return redirect(url_for('showCatalog'))
 
 
-if __name__ == '__main__':
+#if __name__ == '__main__':
     app.secret_key = 'super_secret_key'
     app.debug = True
     app.run(host='0.0.0.0', port=5000)
