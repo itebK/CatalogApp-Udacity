@@ -178,7 +178,7 @@ use \q to exit psql prompt
 ```sh
 in our application, we will need to change all of
 create_engine('sqlite:///catalogs.db') to
-create_engine("postgresql://catalog:topsecret@localhost/catalogdb")
+create_engine("postgresql://cataloguser:topsecret@localhost/catalogdb")
 ```
 * then we are using built in python read files function on the application, but in ubuntu it might not work as good as it suppose to be, so we will need to change it as well.
 ```sh
