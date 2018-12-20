@@ -56,8 +56,6 @@ categoryItem1 = CategoryItem(user_id=1, name="Soccer cleats",
                              Cleats or studs are protrusions \
                              on the sole of a shoe, \
                              or on an external attachment to \
-                             a shoe, that provide \
-                             additional traction on a soft or \
                              slippery surface",
                              categories=category5)
 session.add(categoryItem1)
