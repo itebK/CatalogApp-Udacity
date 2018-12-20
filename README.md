@@ -53,30 +53,30 @@
 ```
 
 ##### 4. Create a new user
-* Create a new user called itebk.
+* Create a new user called grader.
 ```sh
-~ $ sudo adduser itebk
+~ $ sudo adduser grader
 ```
-* Give itebk the permission to perform sudo commands(without password).
+* Give grader the permission to perform sudo commands(without password).
 ```sh
 ~ $ sudo visudo #open /etc/sudoers files
 #find the following line
 root    ALL=(ALL:ALL) ALL
-#and add the following line to give the itebk sudo permission
-itebk    ALL=(ALL:ALL) NOPASSWD:ALL
+#and add the following line to give the grader sudo permission
+grader    ALL=(ALL:ALL) NOPASSWD:ALL
 ```
-* Setup an SSH key for the itebk by using the **ssh-keygen**.
+* Setup an SSH key for the grader by using the **ssh-keygen**.
 ```sh
 #Things to do on the local machine
 
 type the following code on local machine's terminal to generate ssh key.
 ~ $ ssh-keygen
-change the files path and name to ~/.ssh/itebk
+change the files path and name to ~/.ssh/grader
 read the public key with the following code
-~ $ cat ~/.ssh/itebk.pub
+~ $ cat ~/.ssh/grader.pub
 
 #Things to do on the remote machine/console
-~ $ su - itebk #switch to user itebk
+~ $ su - grader #switch to user grader
 ~ $ nano ~/.ssh/authorized_keys #create file and folder for authorize key.
 
 #Now go back to the local machine and copy the public key and paste it on the  authorized_keys file.
@@ -86,13 +86,13 @@ read the public key with the following code
 change the line PasswordAuthentication yes to no
 remember to save it
 ```
-##### 5. Use SSH login as itebk
-* Use following code on the local machine to login as itebk
+##### 5. Use SSH login as grader
+* Use following code on the local machine to login as grader
 ```sh
-~ $ ssh itebk@18.184.109.215 -p 2200 -i ~/.ssh/itebk
+~ $ ssh grader@18.184.109.215 -p 2200 -i ~/.ssh/grader
 ```
 ##### 6. Install Apache and mod_wsgi
-* after login as itebk, use the following code to install apache
+* after login as grader, use the following code to install apache
 ```sh
 ~ $ sudo apt-get install apache2
 ```
