@@ -250,8 +250,8 @@ from project import app as application
 
 ```sh
 <VirtualHost *:80>
-  ServerName ubuntu-512mb-nyc3-01
-  ServerAlias 104.131.87.6
+  ServerName Ubuntu-512MB-Frankfurt-itebk
+  ServerAlias 18.184.109.215
   ServerAdmin local@local
   WSGIScriptAlias / /var/www/CatalogApp-Udacity/CatalogApp-Udacity.wsgi
   <Directory /var/www/CatalogApp-Udacity/CatalogApp-Udacity/>
