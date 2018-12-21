@@ -1,12 +1,12 @@
 # Item-Catalog-Application-Online-Branch (Linux Server Configuration)
 
 ## Sever Details
-* Public IP : [18.184.109.215](18.184.109.215)
+* Public IP : [18.184.109.215](http://18.184.109.215)
 * Server OS : Ubuntu 16.04 x64
 * SSH Port: 2200
 * Server Provider: [Amazon lightsail](https://lightsail.aws.amazon.com)
 * Web Apllication: [CatalogApp-Udacity](https://github.com/itebK/CatalogApp-Udacity)
-* URL: [18.184.109.215.nip.io](18.184.109.215.nip.io)
+* URL: [18.184.109.215.nip.io](http://18.184.109.215.nip.io)
 * Username && Password: 'grader' && 'grader' 
 * 'grader' SSH private key included into the "Notes to Reviewer" field
 
