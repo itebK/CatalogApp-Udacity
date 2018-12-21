@@ -6,7 +6,9 @@
 * SSH Port: 2200
 * Server Provider: [Amazon lightsail](https://lightsail.aws.amazon.com)
 * Web Apllication: [CatalogApp-Udacity](https://github.com/itebK/CatalogApp-Udacity)
-* URL: [18.184.109.215](18.184.109.215)
+* URL: [18.184.109.215.nip.io](18.184.109.215.nip.io)
+* Username && Password: 'grader' && 'grader' 
+* 'grader' SSH private key included into the "Notes to Reviewer" field
 
 ### Summary of Software/Package Installed
 - apache2
